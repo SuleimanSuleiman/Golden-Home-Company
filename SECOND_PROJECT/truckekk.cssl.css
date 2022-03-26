@@ -1,0 +1,66 @@
+body{
+    background-image: url(../SECOND_PROJECT/photos/rahul-bhogal-Ub9LkIWxyec-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+*:hover{
+    outline: none;
+}
+form{
+    padding: 60px;
+    background-color: rgb(0 0 0 / 50%);
+    width: 600px;
+    margin: 20px auto;
+    border-radius: 22px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    -ms-border-radius: 22px;
+    -o-border-radius: 22px;
+    height: 475px;
+}
+form .box{
+    display: flex;
+    flex-direction: column;
+}
+form label{
+    text-align: center;
+    font-size: 27px;
+    color: #53b0d9;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+form #select-country,
+     #number-of-rooms,
+     #property-type,
+     #price,
+     #description{
+    width: 30%;
+    margin: 4px auto;
+    padding: 14px;
+    border-radius: 22px;
+    background: none;
+} 
+#reset,
+#submit{
+    width: 30%;
+    margin: 4px auto;
+    padding: 14px;
+    border-radius: 22px;
+    background-color: #53b0d9;
+    box-shadow: 4px 4px 4px #3f6677;
+}
+#reset:hover,
+#submit:hover{
+    position: relative;
+    top: 4px;
+    left: 4px;
+    background-color: #3f6677;
+    color: white;
+}
+form .select-country #select-country:hover{
+    outline: none;
+}
+form .box:last-child{
+    flex-direction: row;
+}

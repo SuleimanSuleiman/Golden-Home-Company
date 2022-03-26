@@ -1,0 +1,87 @@
+*:hover{
+    outline: none;
+}
+body{
+    color: white;
+    text-transform: capitalize;
+    background-image: url(../SECOND_PROJECT/ben-o-bro-wpU4veNGnHg-unsplash\ \(1\).jpg);
+    background-size: cover;
+    position: relative;
+}
+.bod{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+.bod img{
+    width: 200px;
+    height: 200px;
+    margin: auto 10px;
+}
+.boxes{
+    background-color:   #648e92;   
+    box-shadow: 4px 4px 4px black;
+    width: 500px;
+    margin-top: 22px;
+    height: 500px;
+    margin: 40px auto;
+    border-radius: 22px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    -ms-border-radius: 22px;
+    -o-border-radius: 22px;
+    grid-area: boxs;
+    /* width: 100%; */
+}
+.boxes .box{
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+}
+.boxes .box label{
+    font-size: 32px;
+    text-align: center;
+    font-family: sans-serif;
+    /* font-weight: bold; */
+    margin-bottom: 7px;
+}
+.boxes #namee,
+       #email,
+       #password{
+        padding: 10px;
+        border-radius: 22px;
+       }
+.boxes .box:last-child{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.boxes .box:last-child #submit{
+    padding: 10px 20px;
+    border-radius: 22px;
+    box-shadow: 2px 2px 2px black;
+    font-size: 19px;
+    font-weight: bold;
+}
+.boxes .box:last-child #submit:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.boxes .box:last-child p{
+    font-size: 22px;
+    margin: 22px auto;
+    cursor: pointer;
+}
+/* .bod .text{
+    grid-area: name;
+    font-size: 31px;
+    margin-right: -46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -43px;
+    font-weight: bold;
+    color: #5441ff;
+    margin-top: 100px;
+} */

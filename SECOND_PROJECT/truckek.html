@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<HTML lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>login</title>
+        <meta name"viewport" content="width=device-width , initial-scale=1.0"  />
+        <meta name="description" content="The first real estate site in SYRIA" > 
+        <!-- Font Awesome Library -->
+        <link rel="stylesheet" href="css/all.min.css" />
+        <!-- Render All Elements Normally -->
+        <link rel="stylesheet" href="css/normalize.css" />
+        <!-- Main Template CSS File -->
+        <link rel="stylesheet" href="../SECOND_PROJECT/truckekk.css" />
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&#038;display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="log">
+            <form action="">
+                <div class="box">
+                    <label for="select-country">select country</label>
+                    <select name="select-country" id="select-country">
+                        <option value="1">Homs</option>
+                        <option value="2">Damascus</option>
+                        <option value="3">Tartous</option>
+                        <option value="4">Hama</option>
+                        <option value="5">Latkia</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <label for="number-of-rooms">Choose number of rooms</label>
+                    <input type="number" name="number-of-rooms" id="number-of-rooms" min="0" max="100" />
+                </div>
+                <div class="box">
+                    <label for="property-type">property type</label>
+                    <select name="property-type" id="property-type">
+                    <option value="1">small house</option>
+                        <option value="2">modul house</option>
+                        <option value="3">large house</option>
+                        <option value="4">villa</option>
+                        <option value="5">chalet</option>
+                    </select>
+                </div>
+                <div class="box">
+                   <label for="price">price</label>
+                   <p style="word-spacing: 11px;">from <input type="number" id="price" name="price"/>$ TO  <input type="number" id="price" name="price"/>$</p> 
+                </div>
+                <div class="box">
+                    <label for="description">description rooms</label>
+                    <input type="text" name="description" id="description" />
+                </div>
+                <div class="box">
+                    <input type="submit" value="GO" name="submit" id="submit" />
+                    <input type="reset" value="reset" id="reset" />
+                </div>
+            </form>
+        </div>
+    </body>
+</HTML>
